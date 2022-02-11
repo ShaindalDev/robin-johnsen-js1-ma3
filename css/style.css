@@ -1,8 +1,11 @@
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  background-color: grey;
 }
-
+h1 {
+  margin: 1rem;
+}
 .results {
   display: flex;
   flex-wrap: wrap;
@@ -16,11 +19,12 @@
   background: white;
   border: 1px solid black;
   border-radius: 0.5rem;
+  font-size: larger;
 }
 
 .loader {
   border: 16px solid #f3f3f3;
-  border-top: 16px solid darkred;
+  border-top: 16px solid green;
   border-radius: 50%;
   width: 120px;
   height: 120px;
